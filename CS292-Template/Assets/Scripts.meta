@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 guid: 70cab34b1ba81544eb38594977519689
 =======
 guid: 505ac76a7205c4708bd09d36d8975b66
 >>>>>>> Stashed changes
+=======
+guid: 70cab34b1ba81544eb38594977519689
+>>>>>>> sierra-images
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
