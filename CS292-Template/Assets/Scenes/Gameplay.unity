@@ -1207,6 +1207,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panel_UI
       objectReference: {fileID: 0}
+    - target: {fileID: 1540756013447553411, guid: e54d81342736a40a9b9d38b810b041f4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1540756013447553412, guid: e54d81342736a40a9b9d38b810b041f4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1431,6 +1436,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panel_Credits
       objectReference: {fileID: 0}
+    - target: {fileID: 4602626149877887429, guid: 8e6cc288861e44683b85f23cf5563edb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e6cc288861e44683b85f23cf5563edb, type: 3}
 --- !u!1001 &6423180433982251384
@@ -1444,6 +1454,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Panel_Title
+      objectReference: {fileID: 0}
+    - target: {fileID: 6423180434125306658, guid: 2bc2a878243ac45e8b7aa8bdabf5ce16,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6423180434125306659, guid: 2bc2a878243ac45e8b7aa8bdabf5ce16,
         type: 3}
