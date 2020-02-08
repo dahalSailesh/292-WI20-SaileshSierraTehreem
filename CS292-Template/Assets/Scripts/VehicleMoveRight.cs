@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class carMove : MonoBehaviour
+public class VehicleMoveRight : MonoBehaviour
 {
     Rigidbody2D rb;
     float speed = 15.0f;
@@ -19,5 +19,13 @@ public class carMove : MonoBehaviour
         Vector2 position = rb.position;
         position.x = position.x + 3.0f * speed * Time.deltaTime;
         rb.MovePosition(position);
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Outside")
+        {
+            Destroy(gameObject);
+        }
     }
 }

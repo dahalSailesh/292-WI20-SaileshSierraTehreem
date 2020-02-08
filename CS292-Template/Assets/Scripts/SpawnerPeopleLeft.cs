@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spawner : MonoBehaviour
+public class SpawnerPeopleLeft : MonoBehaviour
 {
     public Transform[] spawnPoints;
     public GameObject[] hazards;
@@ -12,6 +12,7 @@ public class Spawner : MonoBehaviour
 
     private void Update()
     {
+        startTimeBtwSpawns = Random.Range(1.5f, 2.0f);
         if (timeBtwSpawns <= 0)
         {
             Transform randomSpawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
