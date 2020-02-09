@@ -8,6 +8,7 @@ public class squirrelMove : MonoBehaviour
     float speed = 75.0f;
 
     public int acornCount;
+    public Joystick joystick;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +18,8 @@ public class squirrelMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        float horizontal = joystick.Horizontal;
+        float vertical = joystick.Vertical;
         Vector2 position = rb.position;
         position.x = position.x + speed * horizontal * Time.deltaTime;
         position.y = position.y + speed * vertical * Time.deltaTime;
