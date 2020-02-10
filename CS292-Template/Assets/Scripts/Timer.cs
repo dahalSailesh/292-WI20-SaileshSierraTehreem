@@ -23,7 +23,7 @@ public class Timer : MonoBehaviour
         {
             if (PauseButtonScript.GameOver)
             {
-                currentTime = 0;
+                //currentTime = 0;
                 countdownText.text = currentTime.ToString("0");
                 return;
             }

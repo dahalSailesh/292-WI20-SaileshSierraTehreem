@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 187919168473769761}
   - component: {fileID: 4412878093988470011}
   - component: {fileID: 6267635422185923243}
+  - component: {fileID: 1103084088608880920}
   m_Layer: 9
   m_Name: StickPersonRight
   m_TagString: Untagged
@@ -140,5 +141,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1cd65455fecc0a94c93ac6367dd9724c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1103084088608880920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3856482371617438101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214fc30d648408a4989fb441e049f9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
