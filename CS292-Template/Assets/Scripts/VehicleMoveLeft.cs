@@ -20,9 +20,12 @@ public class VehicleMoveLeft : MonoBehaviour
         position.x = position.x + 3.0f * speed * Time.deltaTime;
         rb.MovePosition(position);
     }
-
+        
+    
     void OnTriggerEnter2D(Collider2D other)
     {
+
+        //destroycars
         if (other.tag == "Outside")
         {
             Destroy(gameObject);

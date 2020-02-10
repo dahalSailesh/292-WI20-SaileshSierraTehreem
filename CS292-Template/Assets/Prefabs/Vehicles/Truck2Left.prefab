@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 5127524190813853045}
   - component: {fileID: 3382280188443732262}
   - component: {fileID: -4217442176854897321}
-  - component: {fileID: 4153861392984257012}
+  - component: {fileID: -3280742137571959070}
+  - component: {fileID: 6210090692498203142}
+  - component: {fileID: 637149991028545131}
   m_Layer: 9
   m_Name: Truck2Left
   m_TagString: Untagged
@@ -102,8 +104,8 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &4153861392984257012
+  m_Constraints: 6
+--- !u!114 &-3280742137571959070
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,8 +114,44 @@ MonoBehaviour:
   m_GameObject: {fileID: 1954822056097692666}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 048bc48c2976b0742b9dda1e756d2fa8, type: 3}
+  m_Script: {fileID: 11500000, guid: 0fa1b234dc107a7419afe0b24f37368e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints: []
-  hazards: []
+--- !u!61 &6210090692498203142
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954822056097692666}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14, y: 9.8}
+    newSize: {x: 14, y: 9.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14, y: 9.8}
+  m_EdgeRadius: 0
+--- !u!114 &637149991028545131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954822056097692666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214fc30d648408a4989fb441e049f9f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4909886838672198482}
   - component: {fileID: -3965543660174061148}
   - component: {fileID: -6565293184426094479}
+  - component: {fileID: -4937483381611394088}
   m_Layer: 9
   m_Name: Truck1Left
   m_TagString: Untagged
@@ -103,7 +104,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 6
 --- !u!114 &-3965543660174061148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,7 +127,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.048636198, y: -0.048591614}
@@ -142,3 +143,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.563123, y: 2.1211662}
   m_EdgeRadius: 0
+--- !u!114 &-4937483381611394088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2468566438504368802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214fc30d648408a4989fb441e049f9f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

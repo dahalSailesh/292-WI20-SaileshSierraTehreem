@@ -9,6 +9,7 @@ public class PauseButtonScript : MonoBehaviour
     public GameObject Panel2;
 
     public static bool GameIsPaused = false;
+    public static bool timer;
     public static bool GameOver = false;
 
     public void OpenPanel()
@@ -23,6 +24,8 @@ public class PauseButtonScript : MonoBehaviour
         Panel.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        GameOver = false;
+        timer = true;
     }
 
     public void Pause()
@@ -38,7 +41,7 @@ public class PauseButtonScript : MonoBehaviour
         Panel2.SetActive(true);
         Debug.Log("Loading menu...");
         GameOver = true;
-        // Application.LoadLevel(0);
+        // GameIsPaused = false;
         SceneManager.LoadScene("temp-w-gamescreen");
     }
 
