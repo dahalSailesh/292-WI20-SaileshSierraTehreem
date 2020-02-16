@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseButtonScript : MonoBehaviour
-{
+public class PauseButtonScript : MonoBehaviour{
+
     public GameObject Panel;
     public GameObject Panel2;
 
@@ -12,42 +12,41 @@ public class PauseButtonScript : MonoBehaviour
     public static bool timer;
     public static bool GameOver = false;
 
-    public void OpenPanel()
-    {
-        if (Panel != null)
-        {
+
+    public void OpenPanel(){
+        if (Panel != null){
             Panel.SetActive(true);
         }
     }
-    public void Resume()
-    {
+
+
+    public void Resume(){
         Panel.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
         GameOver = false;
+        squirrelMove.dead = false;
         timer = true;
     }
 
-    public void Pause()
-    {
+
+    public void Pause(){
         Panel.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
 
-    public void LoadMenu()
-    {
+
+    public void LoadMenu(){
         Panel.SetActive(false);
         Panel2.SetActive(true);
-        Debug.Log("Loading menu...");
         GameOver = true;
-        // GameIsPaused = false;
         SceneManager.LoadScene("temp-w-gamescreen");
     }
 
-    public void QuitGame()
-    {
-        Debug.Log("Quitting game...");
+
+    public void QuitGame(){
         Application.Quit();
     }
+
 }

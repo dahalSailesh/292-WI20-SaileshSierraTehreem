@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Acorns : MonoBehaviour
-{
+public class Acorns : MonoBehaviour{
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
+    void OnTriggerEnter2D(Collider2D other){
         squirrelMove controller = other.GetComponent<squirrelMove>();
-        if (controller != null)
-        {
+        if (controller != null){
             Score.scoreValue += 1;
             controller.ChangeAcornCount(1);
             Destroy(gameObject);
         }
     }
+    
 }

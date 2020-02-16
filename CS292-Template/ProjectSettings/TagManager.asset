@@ -6,6 +6,7 @@ TagManager:
   tags:
   - background
   - Outside
+  - Vehicle
   layers:
   - Default
   - TransparentFX
