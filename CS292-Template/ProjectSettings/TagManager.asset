@@ -6,6 +6,7 @@ TagManager:
   tags:
   - background
   - Outside
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - 
   - title screen layer
   - gamescreen objects layer
-  - 
+  - Confiner
   - 
   - 
   - 
