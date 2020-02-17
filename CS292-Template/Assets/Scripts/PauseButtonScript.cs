@@ -5,12 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class PauseButtonScript : MonoBehaviour
 {
+
     public GameObject Panel;
     public GameObject Panel2;
 
     public static bool GameIsPaused = false;
     public static bool timer;
     public static bool GameOver = false;
+
 
     public void OpenPanel()
     {
@@ -19,14 +21,18 @@ public class PauseButtonScript : MonoBehaviour
             Panel.SetActive(true);
         }
     }
+
+
     public void Resume()
     {
         Panel.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
         GameOver = false;
+        squirrelMove.dead = false;
         timer = true;
     }
+
 
     public void Pause()
     {
@@ -35,19 +41,19 @@ public class PauseButtonScript : MonoBehaviour
         GameIsPaused = true;
     }
 
+
     public void LoadMenu()
     {
         Panel.SetActive(false);
         Panel2.SetActive(true);
-        Debug.Log("Loading menu...");
         GameOver = true;
-        // GameIsPaused = false;
         SceneManager.LoadScene("temp-w-gamescreen");
     }
 
+
     public void QuitGame()
     {
-        Debug.Log("Quitting game...");
         Application.Quit();
     }
+
 }
