@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
 {
 
     float currentTime = 0f;
-    float startingTime = 30f;
+    float startingTime = 60f;
     public GameObject Panel;
 
     [SerializeField] Text countdownText;
@@ -35,7 +35,9 @@ public class Timer : MonoBehaviour
 
             if (Convert.ToInt32(currentTime) == 0 || Score.scoreValue < 0 || squirrelMove.dead)
             {
+                
                 GameOver();
+                
                 return;
             }
         }

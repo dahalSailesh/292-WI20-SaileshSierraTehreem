@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class gizFries : MonoBehaviour
+public class GameWinScript : MonoBehaviour
 {
+    public GameObject Panel;
 
     void OnTriggerEnter2D(Collider2D other)
     {
         squirrelMove controller = other.GetComponent<squirrelMove>();
         if (controller != null)
         {
-            
-            Score.scoreValue += 10;
-            controller.ChangeAcornCount(10);
-            Destroy(gameObject);
-            SoundManager.PlaySound("Fries");
+            Time.timeScale = 0f;
+            if (Panel != null)
+            {
+                Panel.SetActive(true);
+            }
         }
     }
 
