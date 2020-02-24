@@ -7006,10 +7006,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 903772780}
-  - component: {fileID: 903772779}
   - component: {fileID: 903772781}
-  - component: {fileID: 903772783}
+  - component: {fileID: 903772779}
   - component: {fileID: 903772782}
+  - component: {fileID: 903772783}
   m_Layer: 10
   m_Name: CameraConfiner
   m_TagString: Untagged
@@ -7042,17 +7042,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -129.14537, y: 1309.9202}
-      - {x: -130.26976, y: 1307.383}
-      - {x: -201.47034, y: 1299.888}
-      - {x: -201.12814, y: 1160.3296}
-      - {x: -196.43472, y: 685.3821}
-      - {x: -197.70721, y: 491.56662}
-      - {x: -201.00797, y: 372.1574}
-      - {x: -191.81128, y: -295.41565}
-      - {x: -201.17438, y: -294.78958}
-      - {x: 75.6952, y: -295.30893}
-      - {x: 96.20457, y: 1302.3313}
+    - - {x: 90.21596, y: 1352.7947}
+      - {x: -51.996136, y: 1359.7617}
+      - {x: -195.54602, y: 1356.6836}
+      - {x: -198.85104, y: -316.67627}
+      - {x: 77.35452, y: -316.55597}
 --- !u!4 &903772780
 Transform:
   m_ObjectHideFlags: 0
@@ -7106,56 +7100,35 @@ CompositeCollider2D:
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:
-  - m_Collider: {fileID: 903772783}
-    m_ColliderPaths:
-    - - X: 789192539
-        Y: -2860471296
-      - X: 789192539
-        Y: 13456474112
-      - X: -2083835392
-        Y: 13456473819
-      - X: -2083835099
-        Y: -2860471296
   - m_Collider: {fileID: 903772779}
     m_ColliderPaths:
-    - - X: -1291453696
-        Y: 13099201536
-      - X: -1302697600
-        Y: 13073830912
-      - X: -2014703360
-        Y: 12998879232
-      - X: -2011281408
-        Y: 11603296256
-      - X: -1964347264
-        Y: 6853820928
-      - X: -1977072128
-        Y: 4915666432
-      - X: -2010079616
-        Y: 3721574144
-      - X: -1918112768
-        Y: -2954156544
-      - X: -2011743744
-        Y: -2947895808
-      - X: 756952000
-        Y: -2953089280
-      - X: 962045696
-        Y: 13023312896
+    - - X: 902159552
+        Y: 13527947264
+      - X: -519961344
+        Y: 13597617152
+      - X: -1955460224
+        Y: 13566835712
+      - X: -1988510464
+        Y: -3166762752
+      - X: 773545216
+        Y: -3165559808
+  - m_Collider: {fileID: 903772783}
+    m_ColliderPaths:
+    - - X: 4999707
+        Y: -5000000
+      - X: 4999707
+        Y: 5000000
+      - X: -5000000
+        Y: 4999707
+      - X: -4999707
+        Y: -5000000
   m_CompositePaths:
     m_Paths:
-    - - {x: 75.69517, y: -295.30893}
-      - {x: 75.814125, y: -286.04712}
-      - {x: 78.91925, y: -286.04712}
-      - {x: 78.91925, y: -44.161366}
-      - {x: 96.204544, y: 1302.3313}
-      - {x: 78.91925, y: 1302.9135}
-      - {x: 78.91923, y: 1345.6475}
-      - {x: -208.38354, y: 1345.6473}
-      - {x: -208.38348, y: -286.04712}
-      - {x: -191.94034, y: -286.04715}
-      - {x: -191.81964, y: -294.80713}
-    - - {x: -191.81131, y: -295.41565}
-      - {x: -191.81969, y: -294.80713}
-      - {x: -201.1729, y: -294.78967}
+    - - {x: -198.85104, y: -316.67624}
+      - {x: 77.35452, y: -316.55597}
+      - {x: 90.21593, y: 1352.7948}
+      - {x: -51.996136, y: 1359.7617}
+      - {x: -195.54602, y: 1356.6836}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!61 &903772783
@@ -7171,7 +7144,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 1
-  m_Offset: {x: -64.73213, y: 529.8002}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7182,7 +7155,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 287.30283, y: 1631.6946}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &929005913
 GameObject:
@@ -8997,18 +8970,18 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: da6b32ccf96d48b469c54fe4e5d66036, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 175
   DopplerLevel: 1
   MinDistance: 65.664795
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -9016,23 +8989,41 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
+      time: 0.110982
+      value: 0.507782
+      inSlope: -7.6174865
+      outSlope: -7.6174865
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.2626592
+      value: 0.5
+      inSlope: -1.9043716
+      outSlope: -1.9043716
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5253184
+      value: 0.25
+      inSlope: -0.4760929
+      outSlope: -0.4760929
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     - serializedVersion: 3
       time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
+      value: 0.1313296
+      inSlope: -0.13138205
+      outSlope: -0.13138205
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -21272,13 +21263,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: da6b32ccf96d48b469c54fe4e5d66036, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.57
+  m_Pitch: 0.42
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 123
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -22298,6 +22289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1829830857}
   - component: {fileID: 1829830859}
+  - component: {fileID: 1829830858}
   m_Layer: 5
   m_Name: SoundManager
   m_TagString: Untagged
@@ -22324,6 +22316,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1829830858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829830856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 114238fe73a897f419c5def839729228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &1829830859
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22335,14 +22339,14 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 3
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 58
   DopplerLevel: 1.91
   MinDistance: 1
   MaxDistance: 500
@@ -24206,14 +24210,14 @@ RectTransform:
   m_GameObject: {fileID: 2134886278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2398, y: 2.7710805, z: 2.2398}
+  m_LocalScale: {x: 1.125, y: 1.437, z: 1}
   m_Children: []
   m_Father: {fileID: 2005359195}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: -1098}
+  m_AnchoredPosition: {x: -167.76, y: -889.02}
   m_SizeDelta: {x: 94.782, y: 71.6}
   m_Pivot: {x: 1.2802365, y: -1.9613647}
 --- !u!114 &2134886280
@@ -25432,12 +25436,12 @@ PrefabInstance:
     - target: {fileID: 7500473720977474283, guid: e33b52a6d7627460a935a1d343d4780d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.522586
+      value: -3.8428373
       objectReference: {fileID: 0}
     - target: {fileID: 7500473720977474283, guid: e33b52a6d7627460a935a1d343d4780d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -23.554321
+      value: -182.5173
       objectReference: {fileID: 0}
     - target: {fileID: 7500473720977474283, guid: e33b52a6d7627460a935a1d343d4780d,
         type: 3}

@@ -5,16 +5,18 @@ using UnityEngine;
 public class SoundManager2 : MonoBehaviour
 {
 
-    public static AudioClip FriesSound, HitOneSound, HitTwoSound, AcornSound;
+    public static AudioClip FriesSound, HitOneSound, 
+       // HitTwoSound,
+        AcornSound, GameOverSound;
     static AudioSource audioSrc;
 
     void Start2()
     {
         FriesSound = Resources.Load<AudioClip>("Fries");
         HitOneSound = Resources.Load<AudioClip>("HitOne");
-        HitTwoSound = Resources.Load<AudioClip>("HitTwo");
+       // HitTwoSound = Resources.Load<AudioClip>("HitTwo");
         AcornSound = Resources.Load<AudioClip>("Acorn");
-
+        GameOverSound = Resources.Load<AudioClip>("GameOver");
 
 
     }
@@ -34,13 +36,18 @@ public class SoundManager2 : MonoBehaviour
                 audioSrc.PlayOneShot(HitOneSound);
                 break;
 
-            case "HitTwo":
-                audioSrc.PlayOneShot(HitTwoSound);
-                break;
+           // case "HitTwo":
+               // audioSrc.PlayOneShot(HitTwoSound);
+             //   break;
 
             case "Acorn":
                 audioSrc.PlayOneShot(AcornSound);
                 break;
+
+            case "GameOver":
+                audioSrc.PlayOneShot(GameOverSound);
+                break;
+
 
 
 
