@@ -13,6 +13,7 @@ public class Acorns : MonoBehaviour
         {
             
             Score.scoreValue += 1;
+            SoundManager.PlaySound ("Acorn");
             controller.ChangeAcornCount(1);
             Destroy(gameObject);
            

@@ -12,6 +12,7 @@ public class damage : MonoBehaviour
         {
             
             Score.scoreValue -= 1;
+            SoundManager.PlaySound ("HitOne");
             controller.ChangeAcornCount(-1);
             SoundManager.PlaySound("HitOne");
         }
