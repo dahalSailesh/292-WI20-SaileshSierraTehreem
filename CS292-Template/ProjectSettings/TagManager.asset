@@ -8,6 +8,7 @@ TagManager:
   - Outside
   - Ground
   - Vehicle
+  - Fries
   layers:
   - Default
   - TransparentFX

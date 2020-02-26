@@ -10,9 +10,13 @@ public class gizFries : MonoBehaviour
         squirrelMove controller = other.GetComponent<squirrelMove>();
         if (controller != null)
         {
+            
             Score.scoreValue += 10;
+            SoundManager.PlaySound ("Fries");
             controller.ChangeAcornCount(10);
+        
             Destroy(gameObject);
+            
         }
     }
 
