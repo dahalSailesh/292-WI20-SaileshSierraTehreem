@@ -17,8 +17,8 @@ public class SpawnerPeopleRight : MonoBehaviour
         {
             Transform randomSpawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
             GameObject randomHazard = hazards[Random.Range(0, hazards.Length)];
-
             Instantiate(randomHazard, randomSpawnPoint.position, Quaternion.identity);
+
             timeBtwSpawns = startTimeBtwSpawns;
 
 

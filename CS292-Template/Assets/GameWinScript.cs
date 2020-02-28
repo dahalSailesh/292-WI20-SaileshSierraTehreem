@@ -14,6 +14,8 @@ public class GameWinScript : MonoBehaviour
             Time.timeScale = 0f;
             if (Panel != null)
             {
+                Score.scoreValue += 15;
+                controller.ChangeAcornCount(15);
                 Panel.SetActive(true);
             }
         }
