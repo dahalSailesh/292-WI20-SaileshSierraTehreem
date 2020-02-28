@@ -7583,6 +7583,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: acornUp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7923700782840565088, guid: 794cd414a08335147a6096b91c3c978f,
+        type: 3}
+      propertyPath: m_AutoTiling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7923700782840565088, guid: 794cd414a08335147a6096b91c3c978f,
+        type: 3}
+      propertyPath: m_UsedByComposite
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9048916784006595050, guid: 794cd414a08335147a6096b91c3c978f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26802,7 +26812,7 @@ PrefabInstance:
     - target: {fileID: 6423180434125306658, guid: 2bc2a878243ac45e8b7aa8bdabf5ce16,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6423180434125306658, guid: 2bc2a878243ac45e8b7aa8bdabf5ce16,
         type: 3}

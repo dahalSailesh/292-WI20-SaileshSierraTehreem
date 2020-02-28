@@ -50,7 +50,7 @@ public class squirrelMove : MonoBehaviour
             
             dead = true;
             
-            SoundManager.PlaySound("GameOver");
+            //SoundManager.PlaySound("GameOver");
             Destroy(gameObject);
             
         }
