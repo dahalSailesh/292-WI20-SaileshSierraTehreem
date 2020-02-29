@@ -6,7 +6,7 @@ public class SpawnerCarRight : MonoBehaviour
 {
     public Transform[] spawnPoints1;
     public GameObject[] hazards1;
-    float startTimeBtwSpawns1 = 3.25f;
+    float startTimeBtwSpawns1;
 
     private float timeBtwSpawns1;
 

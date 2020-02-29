@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4105566310086334305}
   - component: {fileID: 4076242504306553183}
   - component: {fileID: 4909886838672198482}
-  - component: {fileID: -2493454136277535942}
   - component: {fileID: 6310659958223972453}
   - component: {fileID: 5292077058066555102}
+  - component: {fileID: 6164460069621682081}
   m_Layer: 9
   m_Name: Truck1Right
   m_TagString: Vehicle
@@ -105,18 +105,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
---- !u!114 &-2493454136277535942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2468566438504368802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cd65455fecc0a94c93ac6367dd9724c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &6310659958223972453
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -153,5 +141,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 214fc30d648408a4989fb441e049f9f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6164460069621682081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2468566438504368802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 153adbd7bd8704d89bb73375c3e232ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

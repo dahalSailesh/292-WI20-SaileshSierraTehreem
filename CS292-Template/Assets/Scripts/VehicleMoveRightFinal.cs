@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VehicleMoveLeft : MonoBehaviour
+public class VehicleMoveRightFinal : MonoBehaviour
 {
     Rigidbody2D rb;
-    float speed = -15.0f;
+    float speed = 75.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,11 +21,8 @@ public class VehicleMoveLeft : MonoBehaviour
         rb.MovePosition(position);
     }
 
-
     void OnTriggerEnter2D(Collider2D other)
     {
-
-        //destroycars
         if (other.tag == "Outside")
         {
             Destroy(gameObject);

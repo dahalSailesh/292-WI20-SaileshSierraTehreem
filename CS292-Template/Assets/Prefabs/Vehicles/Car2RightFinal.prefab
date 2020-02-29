@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5477366601353714723}
   - component: {fileID: 1073119894974440771}
   - component: {fileID: -5873895661384371876}
-  - component: {fileID: 3738952552827156399}
+  - component: {fileID: 6058347785438531160}
   m_Layer: 9
-  m_Name: Car2Right
+  m_Name: Car2RightFinal
   m_TagString: Vehicle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 214fc30d648408a4989fb441e049f9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3738952552827156399
+--- !u!114 &6058347785438531160
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,6 +152,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1533529879014789421}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 153adbd7bd8704d89bb73375c3e232ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 032814988e65347688b8821014afc14c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

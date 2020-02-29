@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 6963176957248872204}
   - component: {fileID: 5477366601353714723}
   - component: {fileID: 1073119894974440771}
-  - component: {fileID: -5873895661384371876}
-  - component: {fileID: 3738952552827156399}
+  - component: {fileID: -7148212730652505604}
+  - component: {fileID: -5425383985673707571}
   m_Layer: 9
-  m_Name: Car2Right
+  m_Name: Car2Left
   m_TagString: Vehicle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1533529879014789421}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.896546, y: -14.714752, z: 0}
+  m_LocalPosition: {x: -68, y: -9, z: 0}
   m_LocalScale: {x: 11, y: 11, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 24aadd4cda12643c2bb626478e888499, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 14, y: 9.8}
@@ -115,7 +115,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.030735016}
@@ -131,7 +131,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.7793365, y: 1.5014038}
   m_EdgeRadius: 0
---- !u!114 &-5873895661384371876
+--- !u!114 &-7148212730652505604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533529879014789421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa1b234dc107a7419afe0b24f37368e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-5425383985673707571
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,17 +153,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 214fc30d648408a4989fb441e049f9f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &3738952552827156399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533529879014789421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 153adbd7bd8704d89bb73375c3e232ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

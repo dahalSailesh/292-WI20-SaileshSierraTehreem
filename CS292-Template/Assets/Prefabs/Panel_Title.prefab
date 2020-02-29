@@ -30,7 +30,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6423180434398031534}
-  - {fileID: 4343565534055775119}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -152,78 +151,3 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Hurl The Squirrel
---- !u!1001 &2944545159497568706
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6423180434125306659}
-    m_Modifications:
-    - target: {fileID: 1484589117549636173, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 127.43512
-      objectReference: {fileID: 0}
-    - target: {fileID: 1484589117549636173, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -311.1837
-      objectReference: {fileID: 0}
-    - target: {fileID: 1484589117549636173, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1484589117549636173, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1484589117549636173, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1484589117549636173, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1484589117549636173, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1484589117549636173, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1484589117549636173, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1484589117549636173, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1484589117549636173, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002528945610345041, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-        type: 3}
-      propertyPath: m_Name
-      value: squirrelMove
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a, type: 3}
---- !u!4 &4343565534055775119 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1484589117549636173, guid: 6f6a4c7a6cdb9e3429a3b4290aae170a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2944545159497568706}
-  m_PrefabAsset: {fileID: 0}
