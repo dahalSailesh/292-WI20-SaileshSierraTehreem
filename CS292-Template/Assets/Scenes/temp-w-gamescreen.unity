@@ -22036,9 +22036,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1199, y: -65}
+  m_AnchoredPosition: {x: -68, y: -65}
   m_SizeDelta: {x: 141.6, y: 141.6}
-  m_Pivot: {x: -0.6889331, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614183716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25558,7 +25558,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 21300000, guid: c2ce3b0f3b888405dbb33b4a54b8a0cf,
+        type: 3}
     - target: {fileID: 2051866674316657293, guid: 2bc2a878243ac45e8b7aa8bdabf5ce16,
         type: 3}
       propertyPath: m_SortingOrder
@@ -25852,7 +25853,7 @@ PrefabInstance:
     - target: {fileID: 6423180434398031535, guid: 2bc2a878243ac45e8b7aa8bdabf5ce16,
         type: 3}
       propertyPath: m_Text
-      value: Earl the Squirrel
+      value: Earl The Squirrel
       objectReference: {fileID: 0}
     - target: {fileID: 6773361898759595407, guid: 2bc2a878243ac45e8b7aa8bdabf5ce16,
         type: 3}
@@ -25872,12 +25873,12 @@ PrefabInstance:
     - target: {fileID: 8358159195595335187, guid: 2bc2a878243ac45e8b7aa8bdabf5ce16,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3714.5715
+      value: 1891.8684
       objectReference: {fileID: 0}
     - target: {fileID: 8358159195595335187, guid: 2bc2a878243ac45e8b7aa8bdabf5ce16,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 844.2208
+      value: 429.97012
       objectReference: {fileID: 0}
     - target: {fileID: 8358159195595335187, guid: 2bc2a878243ac45e8b7aa8bdabf5ce16,
         type: 3}
@@ -25888,6 +25889,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8903726952249564051, guid: 2bc2a878243ac45e8b7aa8bdabf5ce16,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bc2a878243ac45e8b7aa8bdabf5ce16, type: 3}
