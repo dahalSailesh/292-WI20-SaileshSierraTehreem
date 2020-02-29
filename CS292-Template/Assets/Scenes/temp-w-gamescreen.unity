@@ -419,6 +419,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103268270}
   m_CullTransparentMesh: 0
+--- !u!1 &108345614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 108345615}
+  m_Layer: 0
+  m_Name: SpawnPointCarLeft (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &108345615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108345614}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -100, y: 1168, z: 18.055117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564888470}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &132433876
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,7 +1010,7 @@ GameObject:
   m_Component:
   - component: {fileID: 178369696}
   m_Layer: 0
-  m_Name: SpawnPointPeopleLeftTop (6)
+  m_Name: SpawnPointPeopleLeft (5)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -994,11 +1024,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178369695}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -146.17041, y: 1450.7081, z: 18.055117}
+  m_LocalPosition: {x: -100, y: 777, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1055093061}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &213411329
 GameObject:
@@ -1796,7 +1826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 344466708}
   m_Layer: 0
-  m_Name: SpawnPointPeopleRightBottom (3)
+  m_Name: SpawnPointPeopleRight (3)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1810,11 +1840,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344466707}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 274.8296, y: 976.7081, z: 0}
+  m_LocalPosition: {x: 208, y: 544, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 847028576}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &367201357
 GameObject:
@@ -1858,7 +1888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 373202800}
   m_Layer: 0
-  m_Name: SpawnPointPeopleRightBottom (1)
+  m_Name: SpawnPointPeopleRight (1)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1872,11 +1902,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373202799}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 250.82959, y: 495.7081, z: 0}
+  m_LocalPosition: {x: 208, y: 274, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 847028576}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &381477808 stripped
 Transform:
@@ -4316,7 +4346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500906945}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -141.17041, y: 1081.7081, z: 18.055117}
+  m_LocalPosition: {x: -100, y: 1078, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 564888470}
@@ -4332,7 +4362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 504993654}
   m_Layer: 0
-  m_Name: SpawnPointPeopleRightBottom (4)
+  m_Name: SpawnPointPeopleRight (4)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -4346,11 +4376,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504993653}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 288.8296, y: 1286.7081, z: 0}
+  m_LocalPosition: {x: 208, y: 733, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 847028576}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &520596014
 GameObject:
@@ -4488,9 +4518,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2027186773}
-  - {fileID: 1469492691}
   - {fileID: 1772818103}
+  - {fileID: 1469492691}
   - {fileID: 500906946}
+  - {fileID: 108345615}
   - {fileID: 1716218764}
   m_Father: {fileID: 367201358}
   m_RootOrder: 0
@@ -5130,7 +5161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 695451166}
   m_Layer: 0
-  m_Name: SpawnPointPeopleLeftTop (3)
+  m_Name: SpawnPointPeopleLeft (2)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5144,11 +5175,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695451165}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -146.17041, y: 799.7081, z: 18.055117}
+  m_LocalPosition: {x: -100, y: 366, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1055093061}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &700718924
 GameObject:
@@ -5188,9 +5219,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -152, y: -1193}
+  m_AnchoredPosition: {x: -338, y: -845.35693}
   m_SizeDelta: {x: 365.3, y: 141.24}
-  m_Pivot: {x: 1.2802365, y: -1.9613647}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &700718926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5395,6 +5426,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708364236}
   m_CullTransparentMesh: 0
+--- !u!1 &710167590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 710167591}
+  m_Layer: 0
+  m_Name: SpawnPointCarRight (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &710167591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710167590}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 208, y: 1099, z: 18.055117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1747131664}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &738583468
 GameObject:
   m_ObjectHideFlags: 0
@@ -6509,11 +6570,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1994452662}
   - {fileID: 373202800}
   - {fileID: 1688027095}
   - {fileID: 344466708}
   - {fileID: 504993654}
-  - {fileID: 1994452662}
   - {fileID: 1685856235}
   - {fileID: 862072090}
   m_Father: {fileID: 1162488209}
@@ -6777,7 +6838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 862072090}
   m_Layer: 0
-  m_Name: SpawnPointPeopleRightTop
+  m_Name: SpawnPointPeopleRight (6)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6791,7 +6852,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862072089}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 257.8296, y: 337.7081, z: 0}
+  m_LocalPosition: {x: 208, y: 1306, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 847028576}
@@ -6972,7 +7033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 879045499}
   m_Layer: 0
-  m_Name: SpawnPointPeopleLeftBottom
+  m_Name: SpawnPointPeopleLeft (6)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6986,7 +7047,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879045498}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -156.17041, y: 255.7081, z: 18.055117}
+  m_LocalPosition: {x: -100, y: 971, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1055093061}
@@ -9010,7 +9071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1033206021}
   m_Layer: 0
-  m_Name: SpawnPointCarRight
+  m_Name: SpawnPointCarRight (3)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9024,7 +9085,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033206020}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 262.8296, y: 151.7081, z: 18.055117}
+  m_LocalPosition: {x: 208, y: 895, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1747131664}
@@ -9127,12 +9188,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1893076914}
   - {fileID: 2136035035}
   - {fileID: 695451166}
   - {fileID: 1657047310}
   - {fileID: 1082185418}
   - {fileID: 178369696}
-  - {fileID: 1893076914}
   - {fileID: 879045499}
   - {fileID: 2124434006}
   m_Father: {fileID: 367201358}
@@ -9486,7 +9547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082185418}
   m_Layer: 0
-  m_Name: SpawnPointPeopleLeftTop (5)
+  m_Name: SpawnPointPeopleLeft (4)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9500,11 +9561,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082185417}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -142.17041, y: 1258.7081, z: 18.055117}
+  m_LocalPosition: {x: -100, y: 672, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1055093061}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1085777194
 PrefabInstance:
@@ -21070,9 +21131,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoints1:
-  - {fileID: 1033206021}
   - {fileID: 2115605596}
   - {fileID: 2061575602}
+  - {fileID: 1033206021}
+  - {fileID: 710167591}
+  - {fileID: 1543139360}
+  - {fileID: 1543139360}
+  - {fileID: 2010561797}
+  - {fileID: 2010561797}
   hazards1:
   - {fileID: 3051818600305223701, guid: 4b36346bf0a87ba48a130009a75af622, type: 3}
   - {fileID: 1533529879014789421, guid: 50900b037aab0554da1772a6883b7bc6, type: 3}
@@ -21091,7 +21157,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1747131664}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1450672564
 GameObject:
@@ -21206,7 +21272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1469492691}
   m_Layer: 0
-  m_Name: SpawnPointCarLeft
+  m_Name: SpawnPointCarLeft (2)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -21220,11 +21286,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469492690}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -145.17041, y: 58.7081, z: 18.055117}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalPosition: {x: -100, y: 594, z: 18.055117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 564888470}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1476716088
 GameObject:
@@ -21691,6 +21757,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1543139359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543139360}
+  m_Layer: 0
+  m_Name: SpawnPointCarRight (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1543139360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543139359}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 208, y: 1185, z: 18.055117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1747131664}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1551190773
 GameObject:
   m_ObjectHideFlags: 0
@@ -22071,7 +22167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1657047310}
   m_Layer: 0
-  m_Name: SpawnPointPeopleLeftTop (4)
+  m_Name: SpawnPointPeopleLeft (3)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -22085,11 +22181,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657047309}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -151.17041, y: 991.7081, z: 18.055117}
+  m_LocalPosition: {x: -100, y: 490, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1055093061}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1674704662 stripped
 Transform:
@@ -22107,7 +22203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1685856235}
   m_Layer: 0
-  m_Name: SpawnPointPeopleRightBottom
+  m_Name: SpawnPointPeopleRight (5)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -22121,7 +22217,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685856234}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 260.8296, y: 225.7081, z: 0}
+  m_LocalPosition: {x: 208, y: 1024, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 847028576}
@@ -22137,7 +22233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1688027095}
   m_Layer: 0
-  m_Name: SpawnPointPeopleRightBottom (2)
+  m_Name: SpawnPointPeopleRight (2)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -22151,11 +22247,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688027094}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 246.82959, y: 685.7081, z: 0}
+  m_LocalPosition: {x: 208, y: 430, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 847028576}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1691365589 stripped
 Transform:
@@ -22187,11 +22283,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716218763}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -137.17041, y: 1359.7081, z: 18.055117}
+  m_LocalPosition: {x: -100, y: 1361, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 564888470}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1719348680
 GameObject:
@@ -22545,10 +22641,13 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1445486775}
   - {fileID: 2115605596}
   - {fileID: 2061575602}
-  - {fileID: 1445486775}
   - {fileID: 1033206021}
+  - {fileID: 710167591}
+  - {fileID: 1543139360}
+  - {fileID: 2010561797}
   m_Father: {fileID: 1162488209}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22606,11 +22705,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772818102}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -139.17041, y: 586.7081, z: 18.055117}
+  m_LocalPosition: {x: -100, y: 59, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 564888470}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1827564825
 GameObject:
@@ -23112,11 +23211,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893076913}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -170.17041, y: 397.7081, z: 18.055117}
+  m_LocalPosition: {x: -132, y: -49, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1055093061}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1893076915
 MonoBehaviour:
@@ -23131,14 +23230,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoints:
-  - {fileID: 2124434006}
-  - {fileID: 879045499}
   - {fileID: 2136035035}
-  - {fileID: 0}
   - {fileID: 695451166}
   - {fileID: 1657047310}
   - {fileID: 1082185418}
   - {fileID: 178369696}
+  - {fileID: 879045499}
+  - {fileID: 2124434006}
+  - {fileID: 2124434006}
   hazards:
   - {fileID: 1951272899582908416, guid: 792dd5a10319b4fc28ac0979c07d5a92, type: 3}
 --- !u!1 &1933041198
@@ -23310,11 +23409,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994452661}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -247.17041, y: 518.7081, z: 0}
+  m_LocalPosition: {x: 293, y: -56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 847028576}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1994452663
 MonoBehaviour:
@@ -23436,6 +23535,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007486587}
   m_CullTransparentMesh: 0
+--- !u!1 &2010561796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2010561797}
+  m_Layer: 0
+  m_Name: SpawnPointCarRight (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2010561797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010561796}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 208, y: 1381, z: 18.055117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1747131664}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2015325909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23772,10 +23901,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoints:
-  - {fileID: 1469492691}
   - {fileID: 1772818103}
-  - {fileID: 1716218764}
+  - {fileID: 1469492691}
   - {fileID: 500906946}
+  - {fileID: 108345615}
+  - {fileID: 1716218764}
+  - {fileID: 1716218764}
   hazards:
   - {fileID: 3051818600305223701, guid: 895f61f637d1945349d88b1c89a7ff35, type: 3}
   - {fileID: 1533529879014789421, guid: d21d83ec0ab7d48c8a0319380baa4dbd, type: 3}
@@ -24219,11 +24350,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061575601}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 282.8296, y: 1186.7081, z: 18.055117}
+  m_LocalPosition: {x: 208, y: 613, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1747131664}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2064491352 stripped
 Transform:
@@ -24330,11 +24461,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115605595}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 276.8296, y: 903.7081, z: 18.055117}
+  m_LocalPosition: {x: 208, y: 334, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1747131664}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2123869595
 GameObject:
@@ -24550,7 +24681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2124434006}
   m_Layer: 0
-  m_Name: SpawnPointPeopleLeftTop
+  m_Name: SpawnPointPeopleLeft (7)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -24564,7 +24695,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124434005}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -156.17041, y: 382.7081, z: 18.055117}
+  m_LocalPosition: {x: -100, y: 1254, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1055093061}
@@ -24606,9 +24737,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: -1098}
+  m_AnchoredPosition: {x: -320, y: -609}
   m_SizeDelta: {x: 94.782, y: 71.6}
-  m_Pivot: {x: 1.2802365, y: -1.9613647}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2134886280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24723,7 +24854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2136035035}
   m_Layer: 0
-  m_Name: SpawnPointPeopleLeftTop (1)
+  m_Name: SpawnPointPeopleLeft (1)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -24737,11 +24868,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136035034}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -151.17041, y: 522.7081, z: 18.055117}
+  m_LocalPosition: {x: -100, y: 217, z: 18.055117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1055093061}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2138990707
 GameObject:

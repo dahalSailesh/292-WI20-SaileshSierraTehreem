@@ -30,10 +30,10 @@ public class squirrelMove : MonoBehaviour
         rb.MovePosition(position);
 
         // to limit squirrel's movement to the camera
-       // if (transform.position.x <= -148f)
-          //  transform.position = new Vector3(-148f, transform.position.y, transform.position.z);
-       // else if (transform.position.x >= 135)
-          //  transform.position = new Vector3(135f, transform.position.y, transform.position.z);
+        if (transform.position.x <= -148f)
+            transform.position = new Vector3(-148f, transform.position.y, transform.position.z);
+        else if (transform.position.x >= 135)
+            transform.position = new Vector3(135f, transform.position.y, transform.position.z);
     }
 
 
@@ -47,11 +47,11 @@ public class squirrelMove : MonoBehaviour
     {
         if (other.tag == "Vehicle")
         {
-            
+
             dead = true;
             SoundManager.PlaySound("HitTwo");
             Destroy(gameObject);
-            
+
         }
     }
 
