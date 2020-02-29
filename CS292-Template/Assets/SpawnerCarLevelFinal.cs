@@ -12,7 +12,7 @@ public class SpawnerCarLevelFinal : MonoBehaviour
 
     private void Update()
     {
-        startTimeBtwSpawns = Random.Range(0.5f, 0.75f);
+        startTimeBtwSpawns = Random.Range(1.75f, 2.00f);
         if (timeBtwSpawns <= 0)
         {
             Transform randomSpawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];

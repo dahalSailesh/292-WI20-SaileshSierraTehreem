@@ -5,7 +5,7 @@ using UnityEngine;
 public class VehicleMoveLeftFinal : MonoBehaviour
 {
     Rigidbody2D rb;
-    float speed = -15.0f;
+    float speed;
 
     // Start is called before the first frame update
     void Start()
@@ -16,16 +16,15 @@ public class VehicleMoveLeftFinal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        speed = Random.Range(-20.0f, -40.0f);
         Vector2 position = rb.position;
         position.x = position.x + 3.0f * speed * Time.deltaTime;
         rb.MovePosition(position);
     }
 
-
     void OnTriggerEnter2D(Collider2D other)
     {
-
-        //destroycars
+        // destroy cars
         if (other.tag == "Outside")
         {
             Destroy(gameObject);

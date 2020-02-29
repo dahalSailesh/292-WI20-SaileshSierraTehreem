@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 6963176957248872204}
   - component: {fileID: 5477366601353714723}
   - component: {fileID: 1073119894974440771}
-  - component: {fileID: -7148212730652505604}
   - component: {fileID: -5425383985673707571}
+  - component: {fileID: 6138049115302842502}
   m_Layer: 9
-  m_Name: Car2Left
+  m_Name: Car2LeftFinal
   m_TagString: Vehicle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,7 +118,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.030735016}
+  m_Offset: {x: -0.048727393, y: 0.015181541}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -129,20 +129,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.7793365, y: 1.5014038}
+  m_Size: {x: 4.61691, y: 1.2076588}
   m_EdgeRadius: 0
---- !u!114 &-7148212730652505604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533529879014789421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa1b234dc107a7419afe0b24f37368e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-5425383985673707571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,5 +141,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 214fc30d648408a4989fb441e049f9f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6138049115302842502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533529879014789421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5af8b4aaa0864cf3b9d6c0901303399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
