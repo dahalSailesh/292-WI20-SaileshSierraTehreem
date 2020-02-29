@@ -1948,7 +1948,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 352854476}
-  - component: {fileID: 352854477}
   - component: {fileID: 352854478}
   m_Layer: 9
   m_Name: SpawnerPeopleRight
@@ -1971,23 +1970,6 @@ Transform:
   m_Father: {fileID: 216379398}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &352854477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 352854475}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829672f33e074b16bc5a4626e5b4c1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints1:
-  - {fileID: 561533977}
-  - {fileID: 662456699}
-  hazards1:
-  - {fileID: 6350214252956951678, guid: 47976e089f7684e93910b1f06862bd65, type: 3}
 --- !u!114 &352854478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2052,7 +2034,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 385931389}
-  - component: {fileID: 385931390}
   - component: {fileID: 385931391}
   m_Layer: 9
   m_Name: SpawnerPeopleLeft
@@ -2075,23 +2056,6 @@ Transform:
   m_Father: {fileID: 1525102558}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &385931390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 385931388}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daf427540fd0242759f56756be273177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1919030621}
-  - {fileID: 0}
-  hazards:
-  - {fileID: 1951272899582908416, guid: 792dd5a10319b4fc28ac0979c07d5a92, type: 3}
 --- !u!114 &385931391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7266,7 +7230,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 859861849}
-  - component: {fileID: 859861850}
   - component: {fileID: 859861851}
   m_Layer: 0
   m_Name: SpawnerCarLeft
@@ -7289,26 +7252,6 @@ Transform:
   m_Father: {fileID: 895481685}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &859861850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859861848}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61abe2aeb95d24489b684119b496606a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 801997}
-  hazards:
-  - {fileID: 3051818600305223701, guid: 9e919642710784fda9b3612212851ec3, type: 3}
-  - {fileID: 1533529879014789421, guid: e03f13977c70a4cecb8497e088845968, type: 3}
-  - {fileID: 8055990768971587933, guid: fe28d02180f1146efa39313873106d61, type: 3}
-  - {fileID: 2468566438504368802, guid: e12cb18a34f384e048e66245a0256db0, type: 3}
-  - {fileID: 1954822056097692666, guid: 367aa424c757c4559a4838ee920e6a63, type: 3}
 --- !u!114 &859861851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21798,7 +21741,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1445486775}
-  - component: {fileID: 1445486774}
   - component: {fileID: 1445486776}
   m_Layer: 0
   m_Name: SpawnerCarRight
@@ -21807,31 +21749,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1445486774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1445486773}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 464baa6e936dcc14c8a7a8d67273f806, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints1:
-  - {fileID: 0}
-  - {fileID: 2061575602}
-  - {fileID: 1033206021}
-  - {fileID: 710167591}
-  - {fileID: 1543139360}
-  - {fileID: 1543139360}
-  hazards1:
-  - {fileID: 3051818600305223701, guid: 4b36346bf0a87ba48a130009a75af622, type: 3}
-  - {fileID: 1533529879014789421, guid: 50900b037aab0554da1772a6883b7bc6, type: 3}
-  - {fileID: 8055990768971587933, guid: 475a0b9ced146c8448b89e18f804b326, type: 3}
-  - {fileID: 2468566438504368802, guid: 04f54ee562165474f859ee915dd010ea, type: 3}
-  - {fileID: 1954822056097692666, guid: bb031b578df1f4fdeb72372dad6f5d3f, type: 3}
 --- !u!4 &1445486775
 Transform:
   m_ObjectHideFlags: 0
@@ -23105,7 +23022,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1701440417}
-  - component: {fileID: 1701440418}
   - component: {fileID: 1701440419}
   m_Layer: 0
   m_Name: SpawnerCarRight
@@ -23128,24 +23044,6 @@ Transform:
   m_Father: {fileID: 579404161}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1701440418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1701440416}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829672f33e074b16bc5a4626e5b4c1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints1:
-  - {fileID: 1549808056}
-  hazards1:
-  - {fileID: 3051818600305223701, guid: 4b36346bf0a87ba48a130009a75af622, type: 3}
-  - {fileID: 1533529879014789421, guid: 50900b037aab0554da1772a6883b7bc6, type: 3}
-  - {fileID: 8055990768971587933, guid: 475a0b9ced146c8448b89e18f804b326, type: 3}
 --- !u!114 &1701440419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23564,7 +23462,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1813659186}
-  - component: {fileID: 1813659187}
   - component: {fileID: 1813659188}
   m_Layer: 0
   m_Name: SpawnerCarLeft
@@ -23587,24 +23484,6 @@ Transform:
   m_Father: {fileID: 987128424}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1813659187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813659185}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daf427540fd0242759f56756be273177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1520545237}
-  hazards:
-  - {fileID: 3051818600305223701, guid: 895f61f637d1945349d88b1c89a7ff35, type: 3}
-  - {fileID: 1533529879014789421, guid: d21d83ec0ab7d48c8a0319380baa4dbd, type: 3}
-  - {fileID: 8055990768971587933, guid: 247e10cb205344552b6b5c53052ba247, type: 3}
 --- !u!114 &1813659188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24077,7 +23956,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871548642}
-  - component: {fileID: 1871548643}
   - component: {fileID: 1871548644}
   m_Layer: 9
   m_Name: SpawnerPeopleRight
@@ -24100,22 +23978,6 @@ Transform:
   m_Father: {fileID: 1478581861}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1871548643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1871548641}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829672f33e074b16bc5a4626e5b4c1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints1:
-  - {fileID: 538110974}
-  hazards1:
-  - {fileID: 6350214252956951678, guid: 47976e089f7684e93910b1f06862bd65, type: 3}
 --- !u!114 &1871548644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24202,7 +24064,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1893076914}
-  - component: {fileID: 1893076915}
   - component: {fileID: 1893076916}
   m_Layer: 9
   m_Name: SpawnerPeopleLeft
@@ -24225,26 +24086,6 @@ Transform:
   m_Father: {fileID: 1055093061}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1893076915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1893076913}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bed8bbfaa52b97241804bc6c3440f83d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1657047310}
-  - {fileID: 1082185418}
-  - {fileID: 178369696}
-  - {fileID: 879045499}
-  - {fileID: 2124434006}
-  hazards:
-  - {fileID: 1951272899582908416, guid: 792dd5a10319b4fc28ac0979c07d5a92, type: 3}
 --- !u!114 &1893076916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24448,7 +24289,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1994452662}
-  - component: {fileID: 1994452663}
   - component: {fileID: 1994452664}
   m_Layer: 9
   m_Name: SpawnerPeopleRight
@@ -24471,27 +24311,6 @@ Transform:
   m_Father: {fileID: 847028576}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1994452663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994452661}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1c10bec1429e704f93bcdf32e2ddd32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 862072090}
-  - {fileID: 1685856235}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 344466708}
-  - {fileID: 504993654}
-  hazards:
-  - {fileID: 6350214252956951678, guid: 47976e089f7684e93910b1f06862bd65, type: 3}
 --- !u!114 &1994452664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24927,7 +24746,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2027186773}
-  - component: {fileID: 2027186772}
   - component: {fileID: 2027186774}
   m_Layer: 0
   m_Name: SpawnerCarLeft
@@ -24936,30 +24754,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2027186772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027186771}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 048bc48c2976b0742b9dda1e756d2fa8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 0}
-  - {fileID: 1469492691}
-  - {fileID: 500906946}
-  - {fileID: 108345615}
-  - {fileID: 108345615}
-  hazards:
-  - {fileID: 3051818600305223701, guid: 895f61f637d1945349d88b1c89a7ff35, type: 3}
-  - {fileID: 1533529879014789421, guid: d21d83ec0ab7d48c8a0319380baa4dbd, type: 3}
-  - {fileID: 8055990768971587933, guid: 247e10cb205344552b6b5c53052ba247, type: 3}
-  - {fileID: 2468566438504368802, guid: 88f9f6c23c27e2f4c8a0d6f2d15681fb, type: 3}
-  - {fileID: 1954822056097692666, guid: e3bad97a315bdbd468ccf2338b22b073, type: 3}
 --- !u!4 &2027186773
 Transform:
   m_ObjectHideFlags: 0
@@ -25440,7 +25234,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2072538263}
-  - component: {fileID: 2072538264}
   - component: {fileID: 2072538265}
   m_Layer: 9
   m_Name: SpawnerPeopleLeft
@@ -25463,23 +25256,6 @@ Transform:
   m_Father: {fileID: 440937012}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2072538264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2072538262}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daf427540fd0242759f56756be273177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1192310560}
-  - {fileID: 2142906553}
-  hazards:
-  - {fileID: 1951272899582908416, guid: 792dd5a10319b4fc28ac0979c07d5a92, type: 3}
 --- !u!114 &2072538265
 MonoBehaviour:
   m_ObjectHideFlags: 0
