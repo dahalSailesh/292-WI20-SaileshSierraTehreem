@@ -11,12 +11,11 @@ public class Acorns : MonoBehaviour
         squirrelMove controller = other.GetComponent<squirrelMove>();
         if (controller != null)
         {
-            
+
             Score.scoreValue += 1;
-            SoundManager.PlaySound ("Acorn");
             controller.ChangeAcornCount(1);
             Destroy(gameObject);
-           
+
         }
     }
 }

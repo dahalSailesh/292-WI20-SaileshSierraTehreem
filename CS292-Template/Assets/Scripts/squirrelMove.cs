@@ -9,8 +9,8 @@ public class squirrelMove : MonoBehaviour
     float speed = 75.0f;
 
     public static int acornCount;
-    public Joystick joystick;
     public static bool dead = false;
+    public Joystick joystick;
 
 
     void Start()
@@ -47,9 +47,7 @@ public class squirrelMove : MonoBehaviour
     {
         if (other.tag == "Vehicle")
         {
-
             dead = true;
-            SoundManager.PlaySound("HitTwo");
             Destroy(gameObject);
 
         }
