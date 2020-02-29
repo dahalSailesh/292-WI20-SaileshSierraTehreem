@@ -2053,6 +2053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 385931389}
   - component: {fileID: 385931390}
+  - component: {fileID: 385931391}
   m_Layer: 9
   m_Name: SpawnerPeopleLeft
   m_TagString: Untagged
@@ -2081,7 +2082,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385931388}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: daf427540fd0242759f56756be273177, type: 3}
   m_Name: 
@@ -2089,6 +2090,22 @@ MonoBehaviour:
   spawnPoints:
   - {fileID: 1919030621}
   - {fileID: 0}
+  hazards:
+  - {fileID: 1951272899582908416, guid: 792dd5a10319b4fc28ac0979c07d5a92, type: 3}
+--- !u!114 &385931391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385931388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264b1a4978d0b4ef389176b62723381e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1919030621}
   hazards:
   - {fileID: 1951272899582908416, guid: 792dd5a10319b4fc28ac0979c07d5a92, type: 3}
 --- !u!1 &429033502
@@ -24061,6 +24078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1871548642}
   - component: {fileID: 1871548643}
+  - component: {fileID: 1871548644}
   m_Layer: 9
   m_Name: SpawnerPeopleRight
   m_TagString: Untagged
@@ -24089,7 +24107,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871548641}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e829672f33e074b16bc5a4626e5b4c1e, type: 3}
   m_Name: 
@@ -24098,6 +24116,20 @@ MonoBehaviour:
   - {fileID: 538110974}
   hazards1:
   - {fileID: 6350214252956951678, guid: 47976e089f7684e93910b1f06862bd65, type: 3}
+--- !u!114 &1871548644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871548641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264b1a4978d0b4ef389176b62723381e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints: []
+  hazards: []
 --- !u!1 &1874824289
 GameObject:
   m_ObjectHideFlags: 0
@@ -24200,7 +24232,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893076913}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bed8bbfaa52b97241804bc6c3440f83d, type: 3}
   m_Name: 
@@ -24220,7 +24252,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893076913}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 264b1a4978d0b4ef389176b62723381e, type: 3}
   m_Name: 
@@ -24446,7 +24478,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994452661}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1c10bec1429e704f93bcdf32e2ddd32, type: 3}
   m_Name: 
@@ -24467,7 +24499,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994452661}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 264b1a4978d0b4ef389176b62723381e, type: 3}
   m_Name: 
@@ -24911,7 +24943,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2027186771}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 048bc48c2976b0742b9dda1e756d2fa8, type: 3}
   m_Name: 
@@ -24949,7 +24981,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2027186771}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 264b1a4978d0b4ef389176b62723381e, type: 3}
   m_Name: 

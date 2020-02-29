@@ -16,7 +16,7 @@ public class VehicleMoveLeftFinal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speed = Random.Range(-20.0f, -40.0f);
+        speed = Random.Range(-20.0f, -35.0f);
         Vector2 position = rb.position;
         position.x = position.x + 3.0f * speed * Time.deltaTime;
         rb.MovePosition(position);
