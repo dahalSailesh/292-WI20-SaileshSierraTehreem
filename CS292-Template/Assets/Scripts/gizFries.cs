@@ -12,6 +12,7 @@ public class gizFries : MonoBehaviour
         {
 
             Score.scoreValue += 10;
+            SoundManagerScript.PlaySound("Fries");
             controller.ChangeAcornCount(10);
             Destroy(gameObject);
 

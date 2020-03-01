@@ -10,6 +10,7 @@ public class damage : MonoBehaviour
         squirrelMove controller = other.gameObject.GetComponent<squirrelMove>();
         if (controller != null)
         {
+            SoundManagerScript.PlaySound("HitOne");
             Score.scoreValue -= 1;
             controller.ChangeAcornCount(-1);
         }
