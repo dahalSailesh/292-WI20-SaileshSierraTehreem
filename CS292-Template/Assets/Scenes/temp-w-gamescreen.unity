@@ -6154,7 +6154,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -351.7, y: -783}
+  m_AnchoredPosition: {x: -375, y: -783}
   m_SizeDelta: {x: 253.6, y: 77.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &700718926
@@ -9304,6 +9304,7 @@ GameObject:
   - component: {fileID: 994862011}
   - component: {fileID: 994862015}
   - component: {fileID: 994862014}
+  - component: {fileID: 994862016}
   m_Layer: 8
   m_Name: Settings
   m_TagString: Untagged
@@ -9327,7 +9328,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -436.8221, y: 835.56006}
+  m_AnchoredPosition: {x: -436.8221, y: 824}
   m_SizeDelta: {x: 152.8, y: 149.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &994862011
@@ -9413,7 +9414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ad42418a587554dceb6ef4e25b5f687b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 512168689e5ae90428531ac22e5d50af, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9457,6 +9458,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Panel: {fileID: 327373503}
+--- !u!114 &994862016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994862009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &999389113
 GameObject:
   m_ObjectHideFlags: 0
@@ -25273,7 +25289,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: c05d028b17c3a41fcb25ac2224ba1e16, type: 3}
     m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
@@ -28401,6 +28417,12 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8225002482075469245, guid: 39f67ff0ae1a44240944498fd4193cb2,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: c05d028b17c3a41fcb25ac2224ba1e16,
+        type: 3}
     - target: {fileID: 8225002482075469247, guid: 39f67ff0ae1a44240944498fd4193cb2,
         type: 3}
       propertyPath: m_Name

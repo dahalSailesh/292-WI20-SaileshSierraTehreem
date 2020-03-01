@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6963176957248872204}
   - component: {fileID: 5477366601353714723}
   - component: {fileID: 1073119894974440771}
-  - component: {fileID: -5873895661384371876}
   - component: {fileID: 6058347785438531160}
   m_Layer: 9
   m_Name: Car2RightFinal
@@ -131,18 +130,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.7793365, y: 1.294714}
   m_EdgeRadius: 0
---- !u!114 &-5873895661384371876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533529879014789421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 214fc30d648408a4989fb441e049f9f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6058347785438531160
 MonoBehaviour:
   m_ObjectHideFlags: 0

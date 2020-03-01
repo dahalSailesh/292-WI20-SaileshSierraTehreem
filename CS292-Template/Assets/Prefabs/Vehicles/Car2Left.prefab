@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 5477366601353714723}
   - component: {fileID: 1073119894974440771}
   - component: {fileID: -7148212730652505604}
-  - component: {fileID: -5425383985673707571}
   m_Layer: 9
   m_Name: Car2Left
   m_TagString: Vehicle
@@ -141,17 +140,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0fa1b234dc107a7419afe0b24f37368e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &-5425383985673707571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533529879014789421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 214fc30d648408a4989fb441e049f9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

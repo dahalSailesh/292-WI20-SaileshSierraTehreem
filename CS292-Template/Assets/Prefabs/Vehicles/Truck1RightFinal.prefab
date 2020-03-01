@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4076242504306553183}
   - component: {fileID: 4909886838672198482}
   - component: {fileID: 6310659958223972453}
-  - component: {fileID: 5292077058066555102}
   - component: {fileID: 3733647307723365769}
   m_Layer: 9
   m_Name: Truck1RightFinal
@@ -131,18 +130,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.3685474, y: 1.7323647}
   m_EdgeRadius: 0
---- !u!114 &5292077058066555102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2468566438504368802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 214fc30d648408a4989fb441e049f9f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3733647307723365769
 MonoBehaviour:
   m_ObjectHideFlags: 0

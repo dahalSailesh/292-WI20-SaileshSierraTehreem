@@ -47,7 +47,7 @@ public class squirrelMove : MonoBehaviour
     {
         if (other.tag == "Vehicle")
         {
-            SoundManagerScript.PlaySound("GameOver");
+            SoundManagerScript.PlaySound("HitTwo");
             dead = true;
             Destroy(gameObject);
 
