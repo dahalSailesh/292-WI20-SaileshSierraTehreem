@@ -39,7 +39,7 @@ public class squirrelMove : MonoBehaviour
 
     public void ChangeAcornCount(int amount)
     {
-        acornCount += 1;
+        acornCount += amount;
     }
 
     // Destroy the Squirrel
