@@ -27475,6 +27475,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de1d35e19415c4f418fbef948e91c214, type: 3}
+--- !u!1001 &4287867187759966798
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4287867188333470054, guid: b08ab3b24fa5a444bb5c8bc167fee71d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -50.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287867188333470054, guid: b08ab3b24fa5a444bb5c8bc167fee71d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287867188333470054, guid: b08ab3b24fa5a444bb5c8bc167fee71d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -936.3691
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287867188333470054, guid: b08ab3b24fa5a444bb5c8bc167fee71d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287867188333470054, guid: b08ab3b24fa5a444bb5c8bc167fee71d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287867188333470054, guid: b08ab3b24fa5a444bb5c8bc167fee71d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287867188333470054, guid: b08ab3b24fa5a444bb5c8bc167fee71d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287867188333470054, guid: b08ab3b24fa5a444bb5c8bc167fee71d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287867188333470054, guid: b08ab3b24fa5a444bb5c8bc167fee71d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287867188333470054, guid: b08ab3b24fa5a444bb5c8bc167fee71d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287867188333470054, guid: b08ab3b24fa5a444bb5c8bc167fee71d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287867188333470057, guid: b08ab3b24fa5a444bb5c8bc167fee71d,
+        type: 3}
+      propertyPath: m_Name
+      value: AnimatedSquirrel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b08ab3b24fa5a444bb5c8bc167fee71d, type: 3}
 --- !u!1001 &4602626149144748670
 PrefabInstance:
   m_ObjectHideFlags: 0
