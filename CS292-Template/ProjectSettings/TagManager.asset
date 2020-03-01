@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Vehicle
   - Fries
+  - Person
   layers:
   - Default
   - TransparentFX
