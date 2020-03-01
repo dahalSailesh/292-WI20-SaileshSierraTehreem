@@ -16,6 +16,7 @@ public class GameWinScript : MonoBehaviour
             {
                 Score.scoreValue += 15;
                 controller.ChangeAcornCount(15);
+                SoundManagerScript.PlaySound("GameWin");
                 Panel.SetActive(true);
             }
         }

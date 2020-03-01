@@ -5,7 +5,7 @@ using UnityEngine;
 public class SoundManagerScript : MonoBehaviour
 {
 
-public static AudioClip AcornTwo, Fries, GameOver, HitOne, HitTwo;
+public static AudioClip AcornTwo, GizmoFries, GameOver, HitOne, HitTwo, GameWin, AcornThree, HitThree;
 static AudioSource audioSrc;
 
 
@@ -13,10 +13,13 @@ static AudioSource audioSrc;
     void Start()
     {
         AcornTwo = Resources.Load<AudioClip>("AcornTwo");
-        Fries = Resources.Load<AudioClip>("Fries");
+        AcornThree = Resources.Load<AudioClip>("AcornThree");
+        GizmoFries = Resources.Load<AudioClip>("GizmoFries");
         GameOver = Resources.Load<AudioClip>("GameOver");
         HitOne = Resources.Load<AudioClip>("HitOne");
         HitTwo = Resources.Load<AudioClip>("HitTwo");
+        GameWin = Resources.Load<AudioClip>("GameWin");
+        HitThree = Resources.Load<AudioClip>("HitThree");
 
         audioSrc = GetComponent<AudioSource> ();
 
@@ -36,8 +39,8 @@ static AudioSource audioSrc;
         audioSrc.PlayOneShot(AcornTwo);
         break;
 
-        case "Fries":
-        audioSrc.PlayOneShot(Fries);
+        case "GizmoFries":
+        audioSrc.PlayOneShot(GizmoFries);
         break;
 
         case "GameOver":
@@ -50,6 +53,18 @@ static AudioSource audioSrc;
 
         case "HitTwo":
         audioSrc.PlayOneShot(HitTwo);
+        break;
+
+        case "GameWin":
+        audioSrc.PlayOneShot(GameWin);
+        break;
+
+        case "AcornThree":
+        audioSrc.PlayOneShot(AcornThree);
+        break;
+
+        case "HitThree":
+        audioSrc.PlayOneShot(HitThree);
         break;
         }
     }
